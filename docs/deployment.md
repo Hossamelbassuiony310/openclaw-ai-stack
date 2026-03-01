@@ -1,4 +1,13 @@
-# Deployment & Usage Guide
+# OpenClaw AI Local Production Stack
+
+Production-ready Local AI Automation Stack using:
+
+- Ollama (GPU Accelerated LLM Inference)
+- OpenClaw Agents
+- Prometheus Monitoring
+- Grafana Dashboards
+- Traefik Reverse Proxy
+- NVIDIA GPU Runtime
 
 ## Requirements
 - Docker 29+
@@ -104,3 +113,15 @@ docker logs -f prometheus
 docker logs -f grafana
 docker logs -f traefik
 ```
+
+## Service Ports
+
+## 📡 Service Ports
+
+| Service            | Port  |
+|--------------------|-------|
+| Ollama             | 11435 |
+| Prometheus         | 9090  |
+| Grafana            | 3000  |
+| Traefik            | 80    |
+| Traefik Dashboard  | 8080  |
