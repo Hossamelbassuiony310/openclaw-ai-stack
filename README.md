@@ -25,12 +25,12 @@ If you'd like to explore the system design and deployment steps in detail:
 
 | Document | Description |
 |----------|------------|
-| 🏗 Architecture | System design, services, and network topology. [Read more](./docs/architecture.md) |
-| 🚀 Deployment | Installation steps and startup commands. [Read more](./docs/deployment.md) |
+| Architecture | System design, services, and network topology. [Read more](./docs/architecture.md) |
+| Deployment | Installation steps and startup commands. [Read more](./docs/deployment.md) |
 
 ---
 
-## 📡 Service Ports
+## Service Ports
 
 | Service | Port |
 |----------|------|
@@ -42,7 +42,7 @@ If you'd like to explore the system design and deployment steps in detail:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Docker 29+
 - NVIDIA Docker Runtime
@@ -54,7 +54,7 @@ If you'd like to explore the system design and deployment steps in detail:
 
 ---
 
-## 💡 Use Case
+## Use Case
 
 This stack demonstrates how to:
 
@@ -66,7 +66,7 @@ This stack demonstrates how to:
 
 ---
 
-## 👤 Author
+## Author
 
 Hossam El Bassuiony  
 DevOps Engineer | Infrastructure & Automation
