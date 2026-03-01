@@ -37,6 +37,8 @@ docker compose -f ./docker/openclaw/openclaw/docker-compose.yml up -d
 
 **Apply configuration:**  
 
+Apply configuration after edit telgram token and pairng it
+
 ```bash
 docker cp ./docker/openclaw/openclaw_temp.json openclaw-gateway:/home/node/.openclaw/openclaw.json
 ```
