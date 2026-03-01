@@ -1,0 +1,50 @@
+{
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "8791541426:AAEFA8Jo1zW-be9_oHDeXMaGtVnlym_lYgk",
+      "dmPolicy": "pairing",
+      "groups": { "*": { "requireMention": true } }
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.2.25",
+    "lastTouchedAt": "2026-02-27T23:05:00.000Z"
+  },
+  "gateway": {
+    "mode": "local",
+    "controlUi": {
+      "dangerouslyAllowHostHeaderOriginFallback": true
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "ollama/llama3.2:3b", 
+      "workspace": "/home/node/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://ollama-exporter:8000/v1",
+        "apiKey": "ollama-local",
+        "api": "openai-responses",
+        "models": [
+          {
+            "id": "llama3.2:3b",
+            "name": "LLaMA 3.2 3B",
+            "reasoning": false,
+            "input": ["text"]
+          }
+        ]
+      }
+    }
+  }
+}

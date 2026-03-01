@@ -1,0 +1,5 @@
+.env
+./docker/ollama/ollama
+data/
+*.log
+letsencrypt/
